@@ -4,7 +4,7 @@ import { useState } from "react";
 import Chat from "./components/Chat";
 import { useForm } from "react-hook-form";
 
-const socket = io.connect("http://localhost:7000");
+const socket = io.connect("https://mern-chat-app-g4w9.onrender.com");
 function App() {
   const [username, setusername] = useState("");
   const [room, setroom] = useState("");
